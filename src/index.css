@@ -23,6 +23,14 @@ a {
   color: unset;
   text-decoration: none;
 }
+button {
+  font-family: inherit;
+  padding: 0;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -36,6 +44,7 @@ img {
 body {
   font-family: var(--font-base);
   color: var(--color-white);
+  background-color: var(--color-black);
   overflow-x: hidden;
 }
 .slide-bottom {

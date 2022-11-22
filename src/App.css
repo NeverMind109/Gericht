@@ -50,11 +50,15 @@
   color: var(--color-black);
   letter-spacing: 0.04em;
   padding: 0.5rem 1.5rem;
-  background-color: var(--color-crimson);
+  background-color: var(--color-golden);
   border-radius: 1px;
   border: none;
   outline: none;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.btn-custom:hover {
+  transform: scale(0.98);
 }
 .p-cormorant {
   font-family: var(--font-base);
@@ -87,7 +91,7 @@
   width: 45px;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2200px) {
   .btn-custom,
   .p-cormorant {
     font-size: 37px;
@@ -109,6 +113,9 @@
   .app-wrapper {
     flex-direction: column;
   }
+  .app-wrapper__info {
+    align-items: center;
+  }
   .app-wrapper__image {
     margin: 5rem 0 0 0;
   }
@@ -128,6 +135,12 @@
   .section-padding {
     padding: 4rem 2rem;
   }
+  .app-wrapper__image {
+    margin: 3rem 0 0 0;
+  }
+  .app-wrapper__image-reverse {
+    margin: 0 0 3rem 0;
+  }
   .p-cormorant {
     font-size: 21px;
   }
@@ -135,7 +148,6 @@
     font-size: 14px;
   }
 }
-
 @media screen and (max-width: 450px) {
   .p-opensans {
     font-size: 12px;

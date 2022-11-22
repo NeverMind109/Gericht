@@ -1,0 +1,10 @@
+.subheading {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .subheading {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+}
