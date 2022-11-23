@@ -1,0 +1,27 @@
+.find__title {
+    margin-bottom: 3rem;
+}
+.find__descr {
+    color: var(--color-grey);
+}
+.find__address {
+    margin-bottom: 3rem;
+}
+.find__address-item:not(:last-child) {
+    margin: 2rem 0;
+}
+.find__address-title {
+    color: var(--color-golden);
+}
+
+@media screen and (max-width: 650px) {
+    .find__title {
+        margin-bottom: 2rem;
+    }
+    .find__address {
+        margin-bottom: 2rem;
+    }
+    .find__address-item:not(:last-child) {
+        margin: 1rem 0;
+    }
+}
