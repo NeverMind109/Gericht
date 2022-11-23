@@ -33,18 +33,14 @@
         font-size: 75px;
         line-height: 100px;
     }
-    .header__descr {
-        text-align: center;
-    }
     .header__img {
         width: 80%;
     }
 }
 @media screen and (max-width: 1150px) {
     .header__title {
-        font-size: 50px;
-        line-height: 75px;
-        text-align: center;
+        font-size: 60px;
+        line-height: 70px;
         margin-bottom: 1rem;
     }
     .header__img {
@@ -53,8 +49,8 @@
 }
 @media screen and (max-width: 650px) {
     .header__title {
-        font-size: 45px;
-        line-height: 55px;
+        font-size: 50px;
+        line-height: 65px;
     }
     .header__img {
         width: 100%;

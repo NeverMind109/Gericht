@@ -1,0 +1,28 @@
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu-item__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+}
+.menu-item__title-wrapper {
+    flex: 1;
+}
+.menu-item__dash {
+    width: 90px;
+    height: 1px;
+    background: var(--color-crimson);
+    margin: 0 1rem;
+}
+.menu-item__price-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.menu-item__tags-wrapper {
+    width: 100%;
+}
