@@ -1,4 +1,6 @@
 import React from "react";
+
+import "./App.css";
 import {
   AboutUs,
   Chef,
@@ -11,7 +13,6 @@ import {
   SpecialMenu,
 } from "./container";
 import { Navbar } from "./components";
-import "./App.css";
 
 const App = () => (
   <div>

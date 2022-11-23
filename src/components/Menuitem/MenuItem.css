@@ -12,6 +12,9 @@
 .menu-item__title-wrapper {
     flex: 1;
 }
+.menu-item__title {
+    color: var(--color-golden)
+}
 .menu-item__dash {
     width: 90px;
     height: 1px;
@@ -25,4 +28,7 @@
 }
 .menu-item__tags-wrapper {
     width: 100%;
+}
+.menu-item__tags {
+    color: var(--color-grey);
 }

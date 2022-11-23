@@ -6,7 +6,7 @@ const MenuItem = ({ title, price, tags }) => (
   <li className="menu__item menu-item">
     <div className="menu-item__header">
       <div className="menu-item__title-wrapper">
-        <h4 className="p-cormorant menu-item__title" style={{color: "#dcca87"}}>{title}</h4>
+        <h4 className="p-cormorant menu-item__title">{title}</h4>
       </div>
 
       <div className="menu-item__dash"/>
@@ -17,7 +17,7 @@ const MenuItem = ({ title, price, tags }) => (
 
     </div>
     <div className="menu-item__tags-wrapper">
-      <p className="p-opensans menu-item__tags" style={{color: '#aaa'}}>{tags}</p>
+      <p className="p-opensans menu-item__tags">{tags}</p>
     </div>
   </li>
 );
